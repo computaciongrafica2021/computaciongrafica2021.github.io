@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import GlampingImg from './build/assets/images/carousel/glamping-en-las-montañas.jpg'
 class App extends React.Component
 {
   
@@ -13,16 +14,16 @@ class App extends React.Component
             <div class="row">
               <div class="span4">
                 <form method="POST" class="search_form">
-                  <input type="text" class="input-block-level search-query" Placeholder="eg. T-sirt" />
+                  <input type="text" class="input-block-level search-query" Placeholder="ex. Glamping 10x10" />
                 </form>
               </div>
               <div class="span8">
                 <div class="account pull-right">
                   <ul class="user-menu">        
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Your Cart</a></li>
+                    <li><a href="#">Mi cuenta</a></li>
+                    <li><a href="#">Carrito de compras</a></li>
                     <li><a href="#">Checkout</a></li>          
-                    <li><a href="#">Login</a></li>    
+                    <li><a href="#">Iniciar sesión</a></li>    
                   </ul>
                 </div>
               </div>
@@ -31,13 +32,11 @@ class App extends React.Component
           <div id="wrapper" class="container">
             <section class="navbar main-menu">
               <div class="navbar-inner main-menu">        
-                <a href="#" class="logo pull-left">TheRichShop</a>
+                <a href="#" class="logo pull-left">Outdoor Bussiness</a>
                 <nav id="menu" class="pull-right">
                   <ul>
-                    <li><a href="#">Woman</a>  </li>                    
-                    <li><a href="#">Hangbag</a></li>
-                    <li><a href="#">Best Seller</a></li>
-                    <li><a href="#">Top Seller</a></li>
+                    <li><a href="#">Glamping</a>  </li>                    
+                    <li><a href="#">Bicicletas</a></li>
                   </ul>
                 </nav>
               </div>
@@ -46,22 +45,19 @@ class App extends React.Component
               <div class="flexslider">
                 <ul class="slides">
                   <li>
-                    <img src="assets/images/carousel/banner-1.jpg" alt="" />
-                  </li>
-                  <li>
-                    <img src="assets/images/carousel/banner-2.jpg" alt="" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/proyecto-final-cg.appspot.com/o/GlampingFoto2.webp?alt=media&token=00126772-b7b9-493f-9169-0622a43f8c80" alt="" />
                     <div class="intro">
-                      <h1>Mid season sale</h1>
-                      <p><span>Up to 50% Off</span></p>
-                      <p><span>On selected items online and in stores</span></p>
+                      <h1>Outdoor Bussiness</h1>
+                      <p><span>Abrimos nuestras puertas</span></p>
+                      <p><span>Encuentre todo lo que necesita para su negocio en las montañas</span></p>
                     </div>
                   </li>
                 </ul>
               </div>      
             </section>
             <section class="header_text">
-              We stand for top quality templates. Our genuine developers always optimized bootstrap commercial templates. 
-              <br/>Don't miss to use our cheap abd best bootstrap templates.
+              Somos la empresa ideal para que empieze su negocio turístico 
+              <br/>Encuentre los mejores productos para usted
             </section>
             <section class="main-content">
               <div class="row">
